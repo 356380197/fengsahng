@@ -1,0 +1,300 @@
+*:focus {outline: none;}  
+body {
+  font-family:"微软雅黑"
+  background-color: #ffffff;
+} 
+h1,h2,span,input,textarea,a {
+  font-family: 微软雅黑;
+}
+.nav{
+	width:100%;
+	height: 78px;
+	background: #000000;
+	 filter:alpha(opacity=50);
+	opacity: .5;
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+	
+}
+
+.f_logo{
+	margin-top: 7px;
+	width: 95px;
+	height: 75px;
+	margin-left: 8%;
+}
+.nav ul{
+	width: 45%;
+	margin-right: 5%;
+	margin-top: 28px;
+	
+}
+/*.nav ul li{
+margin-left: 15%;
+}*/
+body{
+	background: #fff;
+}
+.page{
+	position: relative;
+}
+a{
+	color: #ffffff;
+	font-size: 18px;
+}
+a.selec{
+	border-bottom: 2px solid #ae9557;
+	padding: 0 3px 10px;
+}
+a:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.banner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	/*background: url(../img/bg_02.jpg) no-repeat ;
+	background-position: 50% 50%; ;*/
+}
+.keep_out{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/*background: #000000;
+	filter:alpha(opacity=30);
+	opacity: .3;*/
+	background: rgba(0,0,0,.3);
+	display: none;
+	z-index: 90;
+}
+.out_box{
+	width: 306px;
+	height: 420px;
+	border: 1px solid #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -153px;
+	margin-top: -210px;
+	z-index: 100;
+	padding: 10px;
+	/*filter:alpha(opacity=30);
+	opacity: .3;*/
+}
+.img_box {
+  padding: 10px;
+  background: rgba(255,255,255,.4);
+  text-align: center;
+}
+.img_box h1{
+	font-size: 35px;
+	color: #fff;
+}
+.img_box h2{
+	font-size: 25px;
+	color: #fff;
+}
+.img_box b {
+  width: 25px;
+  height: 25px;
+  background:url(../img/icon_06.png) no-repeat;
+  background-size:100% ;
+  display: block;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+.WeChat,.contact_us{
+	width: 11%;
+/*	height: 165px;*/
+	position: absolute;
+	top:50%;
+}
+.WeChat{
+	left: 32%;
+}
+.contact_us{
+	right: 32%;
+}
+.f_main{
+	width: 80%;
+	margin: 0 auto;
+}
+.f_hr {
+
+  border-bottom: 1px solid #000;
+	margin: 100px 0px 65px;
+	padding: 0;
+}
+.f_hr h1{
+	font-weight: normal;
+	font-size: 22px;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	margin: 0;
+	padding: 10px 20px;
+}
+.f_content {
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 145px;
+}
+.f_map{
+	padding: 0;
+}
+.f_address{
+	padding: 0;
+}
+.f_address h1{
+	font-weight: normal;
+	font-size: 24px;
+	padding: 0px;
+	margin: 0px;
+}
+.f_address span {
+	font-size: 18px;
+  display: block;
+  margin: 5px 0px 15px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #000;  
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #000;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #000;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #000;
+}
+input[type="text"],input[type="tel"] {
+  width: 49%;
+}
+input[type="email"],textarea{
+  width: 100%;
+  margin-top:15px;
+}
+input[type="tel"]{
+ float: right;
+}
+textarea,input[type="tel"],input[type="email"],input[type="text"],input[type="tel"]{
+	  padding: 3px 5px;
+	  height: 40px;
+}
+.top {
+  margin-bottom: 55px;
+}
+input[type="submit"] {
+  width: 234px;
+  height: 40px;
+  border: 0;
+  background-color: #d5d5d5;
+  color: #4b4b4b;
+}
+.div-btn {
+  text-align: center;
+  margin-top: 10px;
+}
+.f_footer{
+	width: 100%;
+	background: #000000;
+	text-align: center;
+}
+#f_copy{
+	font-size: 16px;
+	line-height: 61px;
+	color: #a0a0a0;
+	
+}
+@media only screen and (min-width: 100px) and (max-width: 805px) {
+	.nav ul {
+  width: 60%;
+  }
+  .WeChat{
+	left: 30%;
+}
+.contact_us{
+	right: 30%;
+}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 805px) {
+	.nav ul {
+  width: 60%;
+  }
+  .WeChat{
+	left: 30%;
+}
+.contact_us{
+	right: 30%;
+}
+}
+
+
+@media only screen and (min-width: 805px) and (max-width: 885px) {
+	.nav ul {
+  width: 55%;
+  }
+  .WeChat{
+	left: 30%;
+}
+.contact_us{
+	right: 30%;
+}
+}
+
+@media only screen and (min-width: 100px) and (max-width:1280px) {
+	.f_address h1{
+		font-size: 18px;
+	}
+	.f_address span{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (min-width: 885px) and (max-width: 980px) {
+	.nav ul {
+  width: 50%;
+  }
+  /*.WeChat{
+	left: 30%;
+}
+.contact_us{
+	right: 30%;
+}*/
+}
+@media only screen and (min-width: 990px) and (max-width: 1085px) {
+	li.pull-left.col-md-3.m_do {
+		padding: 0 8px;
+	}
+	/*.WeChat{
+	left: 30%;
+}
+.contact_us{
+	right: 30%;
+}*/
+	
+}
+
+@media only screen and (min-width: 1086px) and (max-width: 1250px) {
+	/*.WeChat{
+	left: 30%;
+}
+.contact_us{
+	right: 30%;
+}
+	*/
+}

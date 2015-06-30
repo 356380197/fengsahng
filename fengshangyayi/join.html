@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>加入我们</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/join.css"/>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="js/respond.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<!--[if IE 7]>
+       		 <script>
+        		$(document).ready(function(){
+        			$('.nav').find('li').addClass('col-md-2').css({'padding':'0px 15px 10px'});
+        		})
+      		  </script>
+   		 <![endif]--> 
+	</head>
+	<body>
+		<div class="page">
+			<div class="nav">
+				<div class="f_logo pull-left">
+					<img class="img-responsive" src="img/logo_03.png"/>
+				</div>
+				<ul class="pull-right rows">
+					<li class="pull-left col-md-3" ><a href="">我们是谁</a></li>
+					<li class="pull-left col-md-3 m_do"><a href="">我们做什么</a></li>
+					<li class="pull-left col-md-3"><a href="">成功案例</a></li>
+					<li class="pull-left col-md-3"><a href="" class="selec" style="">加入我们</a></li>
+				</ul>
+			</div>
+			<div class="banner">
+				<img class="img-responsive f_banner" src="img/bg_02.jpg"/>
+				<div class=" WeChat">
+					<img class="img-responsive" src="img/5_03.png"/>
+				</div>
+				<div class="contact_us">
+					<a href="#here">
+						<img class="img-responsive" src="img/4_05.png"/>
+					</a>
+				</div>
+				<div class="keep_out">
+					<div class="out_box">
+						<div class="img_box">
+							<img class="img-responsive" src="img/erwema.png"/>
+							<h1>扫一扫</h1>
+							<h2>风尚雅艺微信二维码</h2>
+							<b></b>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="f_main">
+				<a id="here"></a>
+				<div class="f_hr">
+					<h1>联系我们</h1>
+				</div>
+				<div class="rows f_content">
+					<div class="f_map col-md-5">
+						<img class="img-responsive" src="img/4_03.jpg"/>
+						<!--<div class="asd" style="background: red; width: 100%;height: 600px;">
+							
+						</div>-->
+					</div>
+					<div class="f_address col-md-6 col-md-offset-1 ">
+						<div class="top">
+							<h1>联系方式</h1>
+							<span >010-57799615-801(服务部) -802(技术部) -803(售后部) -804(市场部)</span>
+							<h1>邮箱</h1>
+							<span >fengshangyayi@163.com</span>
+							<h1>地址</h1>
+							<span >北京市朝阳区朝阳大悦城公寓北楼2611室。</span>
+						</div>
+						<div class="f_Upload">
+							<form action="" method="post">
+								<input type="text" name="" id="" placeholder="你的信息" />
+								<input type="tel" name="" id="" placeholder="你的电话" />
+								<input type="email" name=""  id="" placeholder="你的邮箱" />
+								<textarea name="" rows="1" cols="" placeholder="你的需求" style="resize: none"></textarea>
+								<div class="div-btn">
+									<input type="submit" value="提交需求"/>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="f_footer">
+				<span id="f_copy">
+						&copy;2006-2013TGVISION风尚雅艺. All Right Reserved. 京ICP备12043438号
+					</span>
+				
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.WeChat').mouseover(function(){
+//					$("img[src='img/bg_02.jpg']").attr('src','img/bg_03.jpg');
+					$('.keep_out').show();
+					$('.contact_us').hide();
+					$('.WeChat').hide();
+				})
+				$('.img_box').children("b").click(function(){
+					$('.keep_out').hide();
+					$('.contact_us').show();
+					$('.WeChat').show();
+				})
+			})
+		</script>
+		
+		
+				
+			
+	
+	</body>
+</html>
